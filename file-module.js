@@ -11,6 +11,7 @@ const readFile=()=>{
 const writeFile=(newContent)=>{
     fs.writeFileSync(filepath,newContent,'utf8')
     console.log('File Written.')
+    console.log(first)
 }
 const updateFile=(appendContent)=>{
     fs.appendFileSync(filepath,appendContent,'utf8')
